@@ -44,9 +44,11 @@ main h3{
     width: 8vw;
 }
 .fw-logo{
+    margin: auto 0;
     width: 30%;
 }
 .fw-text{
+    margin: auto 0;
     width: 70%;
 }
 .fw-circle{
@@ -60,4 +62,17 @@ main h3{
     background-color: #2E4F4F;
     margin: auto;
     border-radius: 100%;
+}
+.fw-sign{
+    margin: 3em 4em;
+    background-color: #2E4F4F;
+    padding: 2em;
+    border-radius: 2em;
+}
+.fw-sign h4{
+    font-size: 2.25em;
+}
+.fw-sign p{
+    text-align: justify;
+    font-size: 1.75em;
 }
