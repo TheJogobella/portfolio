@@ -5,6 +5,11 @@ body{
     background-color: #2C3333;
     font-size: 62.5%;
 }
+@media screen and (max-width: 500px) {
+    body{
+        font-size: 50%;
+    }
+}
 .fade-in {
     opacity: 0;
     transform: translateY(20px);
@@ -43,6 +48,7 @@ h2{
 main h3{
     margin: 5em 0;
 }
+
 .framework{
     text-align: center;
     width: 100%;
@@ -84,6 +90,17 @@ main h3{
 .fw-sign p{
     text-align: justify;
     font-size: 1.75em;
+}
+@media screen and (max-width: 600px){
+    .framework{
+        display: block;
+    }
+    .fw-logo{
+        width: 100%;
+    }
+    .fw-text{
+        width: 100%;
+    }
 }
 .ex-circle{
     box-shadow:black  -0.1vw 0px 0px 0.1vw, 0 0 0.25vw #0E8388 inset;
