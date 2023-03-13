@@ -85,3 +85,34 @@ main h3{
     text-align: justify;
     font-size: 1.75em;
 }
+.ex-circle{
+    box-shadow:black  -0.1vw 0px 0px 0.1vw, 0 0 0.25vw #0E8388 inset;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 2vw;
+    width: 2vw;
+    padding: 0;
+    background-color: #2E4F4F;
+    margin: auto;
+    border-radius: 100%; 
+    position: relative;
+    left:-30vw;
+    bottom:-1vw;
+}
+.example h4{
+    font-size: 2.25em;
+}
+.example img{
+    width: 60vw;
+    margin: 0 auto;
+}
+.ex-circle img{
+    width: 1vw;
+}
+footer{
+    margin-top: 5em;
+    width: calc(100%-10em);
+    background-color: black;
+    padding: 5em;
+}
